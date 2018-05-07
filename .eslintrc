@@ -1,13 +1,9 @@
 {
   "plugins": [
-    "react",
-    "react-native"
+    "react"
   ],
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parser": "babel-eslint",
-  "env": {
-    "react-native/react-native": true
-  },
-  "rules": {
-  }
+  "env": {},
+  "rules": {}
 }
