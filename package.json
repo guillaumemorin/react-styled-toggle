@@ -1,7 +1,7 @@
 {
     "name": "react-styled-toggle",
     "version": "1.0.0",
-    "description": "module boilerplate",
+    "description": "Customizable toggle component made with styled-components",
     "main": "dist/index.js",
     "watch": {
         "build": "{src,test}/*.js"
