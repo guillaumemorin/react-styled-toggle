@@ -1,5 +1,5 @@
 {
-    "name": "module-boilerplate",
+    "name": "react-styled-toggle",
     "version": "1.0.0",
     "description": "module boilerplate",
     "main": "dist/index.js",
@@ -23,11 +23,19 @@
     "author": "Guillaume Morin",
     "license": "ISC",
     "devDependencies": {
+        "@storybook/addon-actions": "^3.4.3",
+        "@storybook/addon-info": "^3.4.3",
+        "@storybook/addon-knobs": "^3.4.3",
+        "@storybook/addon-links": "^3.4.3",
+        "@storybook/addons": "^3.4.3",
+        "@storybook/react": "^3.4.3",
         "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
         "babel-eslint": "^8.2.3",
         "babel-preset-env": "^1.6.1",
         "babel-preset-flow": "^6.23.0",
         "babel-preset-react": "^6.24.1",
+        "babel-runtime": "^6.26.0",
         "eslint": "^4.19.1",
         "eslint-plugin-react": "^7.7.0",
         "flow-bin": "^0.71.0",
@@ -35,13 +43,7 @@
         "jest": "^22.4.3",
         "npm-watch": "^0.3.0",
         "prettier": "1.12.1",
-        "pretty-quick": "^1.4.1",
-        "@storybook/react": "^3.4.3",
-        "@storybook/addon-actions": "^3.4.3",
-        "@storybook/addon-links": "^3.4.3",
-        "@storybook/addons": "^3.4.3",
-        "babel-core": "^6.26.3",
-        "babel-runtime": "^6.26.0"
+        "pretty-quick": "^1.4.1"
     },
     "dependencies": {
         "react": "^16.3.2",

@@ -69,6 +69,7 @@ const Slider = styled.span`
 const Label = styled.span`
     color: #777;
     font-size: 15px;
+    font-family: helvetica;
     padding: 0 10px;
 `;
 
