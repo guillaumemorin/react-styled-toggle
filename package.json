@@ -18,6 +18,7 @@
         "precommit": "pretty-quick --staged",
         "prepare": "npm run build",
         "storybook": "start-storybook -p 6006",
+        "storybook-export": "build-storybook -c .storybook -o ./docs",
         "build-storybook": "build-storybook"
     },
     "author": "Guillaume Morin",

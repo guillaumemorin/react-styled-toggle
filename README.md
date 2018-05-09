@@ -15,7 +15,9 @@ npm i --save react-styled-toggle
 
 ## Demo and props
 
-## Usage
+[https://guillaumemorin.github.io/react-styled-toggle/](https://guillaumemorin.github.io/react-styled-toggle/)
+
+## Commands
 
 ### Build
 
