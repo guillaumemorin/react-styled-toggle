@@ -2,6 +2,7 @@
 	React styled toggle
 </h1>
 <p align="center">
+	<a href="https://badge.fury.io/js/react-styled-toggle"><img src="https://badge.fury.io/js/react-styled-toggle.svg" alt="npm version" height="18"></a>
     <a href='https://semaphoreci.com/guillaumemorin/react-styled-toggle'> <img src='https://semaphoreci.com/api/v1/guillaumemorin/react-styled-toggle/branches/master/badge.svg' alt='Build Status'></a>
     <a href='https://github.com/prettier/prettier'> <img src='https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square' alt='code style: prettier'></a>
     <a href='https://github.com/styled-components/styled-components'> <img src='https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e' alt='style: styled-components'></a>
