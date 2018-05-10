@@ -51,5 +51,13 @@
         "react-dom": "^16.3.2",
         "styled-components": "^3.2.6"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/guillaumemorin/react-styled-toggle.git"
+    },
+    "bugs": {
+        "url": "https://github.com/guillaumemorin/react-styled-toggle/issues"
+    },
+    "homepage": "https://github.com/guillaumemorin/react-styled-toggle#readme",
     "keywords": ["react", "toggle", "styled-components"]
 }

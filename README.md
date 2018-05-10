@@ -12,7 +12,7 @@
 	<p align="center">
 		Toggle button made with styled-components
 	</p>
-	<img src="screenshot.png" width="158" />
+	<img src="https://github.com/guillaumemorin/react-styled-toggle/blob/master/screenshot.png" width="158" />
 </div>
 
 ## Installation
