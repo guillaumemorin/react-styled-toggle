@@ -8,6 +8,13 @@
     <a href='https://github.com/styled-components/styled-components'> <img src='https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e' alt='style: styled-components'></a>
 </p>
 
+<div align="center">
+	<p align="center">
+		Toggle button made with styled-components
+	</p>
+	<img src="screenshot.png" width="158" />
+</div>
+
 ## Installation
 
 ```
