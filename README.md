@@ -15,54 +15,38 @@
 	<img src="https://raw.githubusercontent.com/guillaumemorin/react-styled-toggle/master/screenshot.png" width="100" />
 </div>
 
+## Demo (storybook)
+
+[https://guillaumemorin.github.io/react-styled-toggle/](https://guillaumemorin.github.io/react-styled-toggle/)
+
 ## Installation
 
 ```
 npm i --save react-styled-toggle
 ```
 
-## Demo and props
+## Usage
 
-[https://guillaumemorin.github.io/react-styled-toggle/](https://guillaumemorin.github.io/react-styled-toggle/)
+```
+import Toggle from 'react-styled-toggle';
 
-## Commands
+render(){
+	return <Toggle />
+}
+```
 
-### Build
+## Props
 
-Run tests, lint and create babelified files into /dist folder.
+<table class="css-1ytzlk7"><thead><tr><th class="css-d52hbj">property</th><th class="css-d52hbj">propType</th><th class="css-d52hbj">required</th><th class="css-d52hbj">default</th><th class="css-d52hbj">description</th></tr></thead><tbody><tr><td class="css-1ygfcef">checked</td><td class="css-1ygfcef"><span>bool</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">disabled</td><td class="css-1ygfcef"><span>bool</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">onChange</td><td class="css-1ygfcef"><span>func</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">backgroundColorChecked</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"'#2193F3'"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">backgroundColorUnchecked</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"'#ccc'"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">backgroundColorButton</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"'#fff'"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">name</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">value</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">labelRight</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">labelLeft</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">sliderWidth</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"26"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">sliderHeight</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"26"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">width</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"60"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">height</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"34"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">translate</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"26"</span></td><td class="css-d52hbj"></td></tr></tbody></table>
+
+## Development
+
+```
+npm run storybook
+```
+
+## Build
 
 ```
 npm run build
-```
-
-### Watch
-
-Watch source files and rebuilds on any change.
-
-```
-npm run watch
-```
-
-### Lint
-
-Run eslint on /src folder
-
-```
-npm run lint
-```
-
-### Tests
-
-Run tests on /src folder with Jest
-
-```
-npm test
-```
-
-### Coverage
-
-Get tests coverage
-
-```
-npm run coverage
 ```
