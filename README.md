@@ -15,7 +15,13 @@
 	<img src="https://raw.githubusercontent.com/guillaumemorin/react-styled-toggle/master/screenshot.png" width="100" />
 </div>
 
-## Demo (storybook)
+## Demo
+
+<iframe src="https://codesandbox.io/embed/1vpwpm4nyl" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
+[![Edit 1vpwpm4nyl](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/1vpwpm4nyl)
+
+## Storybook
 
 [https://guillaumemorin.github.io/react-styled-toggle/](https://guillaumemorin.github.io/react-styled-toggle/)
 
