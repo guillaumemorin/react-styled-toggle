@@ -6,14 +6,12 @@
     <a href='https://semaphoreci.com/guillaumemorin/react-styled-toggle'> <img src='https://semaphoreci.com/api/v1/guillaumemorin/react-styled-toggle/branches/master/shields_badge.svg' alt='Build Status'></a>
     <a href='https://github.com/prettier/prettier'> <img src='https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square' alt='code style: prettier'></a>
     <a href='https://github.com/styled-components/styled-components'> <img src='https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e' alt='style: styled-components'></a>
+	<a href='https://github.com/facebook/jest'> <img src='https://facebook.github.io/jest/img/jest-badge.svg' alt='jest'></a>
 </p>
 
-<div align="center">
-	<p align="center">
-		Toggle button made with styled-components
-	</p>
+<p align="center">
 	<img src="https://raw.githubusercontent.com/guillaumemorin/react-styled-toggle/master/screenshot.png" width="300" />
-</div>
+</p>
 
 ## Demo
 
