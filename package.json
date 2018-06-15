@@ -19,7 +19,8 @@
         "prepare": "npm run build",
         "storybook": "start-storybook -p 6006",
         "storybook-export": "build-storybook -c .storybook -o ./docs",
-        "build-storybook": "build-storybook"
+        "build-storybook": "build-storybook",
+        "postinstall": "npm-insights:log"
     },
     "author": "Guillaume Morin",
     "license": "ISC",
@@ -50,6 +51,7 @@
         "regenerator-runtime": "^0.11.1"
     },
     "dependencies": {
+        "npm-insights": "^1.0.6",
         "react": "^16.3.2",
         "react-dom": "^16.3.2",
         "styled-components": "^3.2.6"
