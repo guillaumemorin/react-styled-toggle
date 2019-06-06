@@ -19,42 +19,39 @@
         "prepare": "npm run build",
         "storybook": "start-storybook -p 6006",
         "storybook-export": "build-storybook -c .storybook -o ./docs",
-        "build-storybook": "build-storybook",
-        "postinstall": "npm-insights:log"
+        "build-storybook": "build-storybook"
     },
     "author": "Guillaume Morin",
     "license": "ISC",
     "devDependencies": {
-        "@storybook/addon-actions": "^3.4.3",
-        "@storybook/addon-info": "^3.4.3",
-        "@storybook/addon-knobs": "^3.4.3",
-        "@storybook/addon-links": "^3.4.3",
-        "@storybook/addons": "^3.4.3",
-        "@storybook/react": "^3.4.3",
-        "babel-cli": "^6.26.0",
-        "babel-core": "^6.26.3",
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "@babel/preset-react": "^7.0.0",
+        "@storybook/addon-info": "^5.1.1",
+        "@storybook/addon-knobs": "^5.1.1",
+        "@storybook/addon-links": "^5.1.1",
+        "@storybook/addons": "^5.1.1",
+        "@storybook/react": "^5.1.1",
         "babel-eslint": "^8.2.3",
         "babel-jest": "^22.4.3",
-        "babel-preset-env": "^1.6.1",
-        "babel-preset-flow": "^6.23.0",
-        "babel-preset-react": "^6.24.1",
+        "babel-loader": "^8.0.6",
         "babel-runtime": "^6.26.0",
         "eslint": "^4.19.1",
         "eslint-plugin-react": "^7.7.0",
         "flow-bin": "^0.71.0",
-        "husky": "^0.14.3",
+        "husky": "^2.4.0",
         "jest": "^22.4.3",
         "npm-watch": "^0.3.0",
-        "prettier": "1.12.1",
+        "prettier": "^1.17.1",
         "pretty-quick": "^1.4.1",
         "react-test-renderer": "^16.3.2",
         "regenerator-runtime": "^0.11.1"
     },
     "dependencies": {
-        "npm-insights": "^1.0.6",
         "react": "^16.3.2",
         "react-dom": "^16.3.2",
-        "styled-components": "^3.2.6"
+        "styled-components": "^4.3.0"
     },
     "repository": {
         "type": "git",
@@ -64,5 +61,9 @@
         "url": "https://github.com/guillaumemorin/react-styled-toggle/issues"
     },
     "homepage": "https://github.com/guillaumemorin/react-styled-toggle#readme",
-    "keywords": ["react", "toggle", "styled-components"]
+    "keywords": [
+        "react",
+        "toggle",
+        "styled-components"
+    ]
 }
