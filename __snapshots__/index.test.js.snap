@@ -7,16 +7,12 @@ exports[`Checked status 1`] = `
   <label
     className="sc-bwzfXH gEDjyj"
     height={34}
-    onChange={undefined}
     width={60}
   >
     <input
       checked={true}
       className="sc-htpNat cUznao"
-      disabled={undefined}
-      name={undefined}
       type="checkbox"
-      value={undefined}
     />
     <span
       className="sc-bxivhb iGnxFc"
@@ -32,16 +28,12 @@ exports[`Disabled status 1`] = `
   <label
     className="sc-bwzfXH gEDjyj"
     height={34}
-    onChange={undefined}
     width={60}
   >
     <input
-      checked={undefined}
       className="sc-htpNat cUznao"
       disabled={true}
-      name={undefined}
       type="checkbox"
-      value={undefined}
     />
     <span
       className="sc-bxivhb iGnxFc"
@@ -57,16 +49,11 @@ exports[`Display custom background colors 1`] = `
   <label
     className="sc-bwzfXH gEDjyj"
     height={34}
-    onChange={undefined}
     width={60}
   >
     <input
-      checked={undefined}
       className="sc-htpNat dDvMrc"
-      disabled={undefined}
-      name={undefined}
       type="checkbox"
-      value={undefined}
     />
     <span
       className="sc-bxivhb iMLVkj"
@@ -82,16 +69,11 @@ exports[`Display custom sizes 1`] = `
   <label
     className="sc-bwzfXH esbtVt"
     height={20}
-    onChange={undefined}
     width={40}
   >
     <input
-      checked={undefined}
       className="sc-htpNat jHQAcI"
-      disabled={undefined}
-      name={undefined}
       type="checkbox"
-      value={undefined}
     />
     <span
       className="sc-bxivhb jeEOtu"
@@ -112,16 +94,11 @@ exports[`Display left label 1`] = `
   <label
     className="sc-bwzfXH gEDjyj"
     height={34}
-    onChange={undefined}
     width={60}
   >
     <input
-      checked={undefined}
       className="sc-htpNat cUznao"
-      disabled={undefined}
-      name={undefined}
       type="checkbox"
-      value={undefined}
     />
     <span
       className="sc-bxivhb iGnxFc"
@@ -142,16 +119,11 @@ exports[`Display left label 2`] = `
   <label
     className="sc-bwzfXH gEDjyj"
     height={34}
-    onChange={undefined}
     width={60}
   >
     <input
-      checked={undefined}
       className="sc-htpNat cUznao"
-      disabled={undefined}
-      name={undefined}
       type="checkbox"
-      value={undefined}
     />
     <span
       className="sc-bxivhb iGnxFc"
@@ -167,16 +139,11 @@ exports[`Display right label 1`] = `
   <label
     className="sc-bwzfXH gEDjyj"
     height={34}
-    onChange={undefined}
     width={60}
   >
     <input
-      checked={undefined}
       className="sc-htpNat cUznao"
-      disabled={undefined}
-      name={undefined}
       type="checkbox"
-      value={undefined}
     />
     <span
       className="sc-bxivhb iGnxFc"
@@ -197,13 +164,10 @@ exports[`Set input name and value 1`] = `
   <label
     className="sc-bwzfXH gEDjyj"
     height={34}
-    onChange={undefined}
     width={60}
   >
     <input
-      checked={undefined}
       className="sc-htpNat cUznao"
-      disabled={undefined}
       name="toggle"
       type="checkbox"
       value="toggleValue"
@@ -222,16 +186,11 @@ exports[`Standard output 1`] = `
   <label
     className="sc-bwzfXH gEDjyj"
     height={34}
-    onChange={undefined}
     width={60}
   >
     <input
-      checked={undefined}
       className="sc-htpNat cUznao"
-      disabled={undefined}
-      name={undefined}
       type="checkbox"
-      value={undefined}
     />
     <span
       className="sc-bxivhb iGnxFc"

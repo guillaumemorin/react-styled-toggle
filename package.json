@@ -41,11 +41,11 @@
         "eslint-plugin-react": "^7.7.0",
         "flow-bin": "^0.71.0",
         "husky": "^2.4.0",
-        "jest": "^22.4.3",
+        "jest": "^24.8.0",
         "npm-watch": "^0.3.0",
         "prettier": "^1.17.1",
         "pretty-quick": "^1.4.1",
-        "react-test-renderer": "^16.3.2",
+        "react-test-renderer": "^16.8.6",
         "regenerator-runtime": "^0.11.1"
     },
     "dependencies": {
