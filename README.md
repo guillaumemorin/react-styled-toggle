@@ -15,16 +15,15 @@
 
 ## Demo
 
-[![Edit 1vpwpm4nyl](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/1vpwpm4nyl)
+<a href="https://codesandbox.io/s/1vpwpm4nyl"> <img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="codesandebox" height="40"></a>
 
-## Storybook
+<a href="https://guillaumemorin.github.io/react-styled-toggle/"> <img src="https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg" alt="storybook" height="40"></a>
 
-[https://guillaumemorin.github.io/react-styled-toggle/](https://guillaumemorin.github.io/react-styled-toggle/)
 
 ## Installation
 
 ```
-npm i --save react-styled-toggle
+yarn add react-styled-toggle
 ```
 
 ## Usage
@@ -44,11 +43,11 @@ render(){
 ## Development
 
 ```
-npm run storybook
+yarn storybook
 ```
 
 ## Build
 
 ```
-npm run build
+yarn build
 ```
