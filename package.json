@@ -1,7 +1,7 @@
 {
     "name": "react-styled-toggle",
     "version": "1.0.8",
-    "description": "Customizable toggle component made with styled-components",
+    "description": "Customizable toggle button",
     "main": "dist/index.js",
     "watch": {
         "build": "{src,test}/*.js"
@@ -61,7 +61,7 @@
     "homepage": "https://github.com/guillaumemorin/react-styled-toggle#readme",
     "keywords": [
         "react",
-        "toggle",
+        "toggle-button",
         "styled-components"
     ]
 }
