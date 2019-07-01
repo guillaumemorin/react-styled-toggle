@@ -50,8 +50,8 @@ const Slider = styled.span`
     right: 0;
     bottom: 0;
     background-color: ${props => props.backgroundColorUnchecked};
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
     border-radius: 34px;
     &:before {
         position: relative;
@@ -61,8 +61,8 @@ const Slider = styled.span`
         width: ${props => props.sliderWidth}px;
         left: 4px;
         background-color: ${props => props.backgroundColorButton};
-        -webkit-transition: 0.4s;
-        transition: 0.4s;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
     }
 `;
 
