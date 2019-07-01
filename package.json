@@ -1,6 +1,6 @@
 {
     "name": "react-styled-toggle",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "Customizable toggle button",
     "main": "dist/index.js",
     "watch": {
