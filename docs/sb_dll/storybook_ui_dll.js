@@ -3614,7 +3614,7 @@ var storybook_ui_dll = (function(e) {
         n('UvmB'),
             Object.defineProperty(t, '__esModule', {value: !0}),
             (t.version = void 0);
-        t.version = '5.1.0-rc.5';
+        t.version = '5.1.8';
     },
     '2nwC': function(e, t, n) {
         'use strict';
@@ -34379,7 +34379,12 @@ var storybook_ui_dll = (function(e) {
                     return e.isSelected ? {color: 'inherit'} : {};
                 }
             ),
-            d = i.styled.div(
+            d = (0, i.styled)(function(e) {
+                var t = e.className,
+                    n = e.children,
+                    o = e.id;
+                return r.default.createElement('div', {className: t, id: o}, n);
+            })(
                 {
                     fontSize: 13,
                     lineHeight: '16px',
@@ -34426,6 +34431,7 @@ var storybook_ui_dll = (function(e) {
                     var t = e.theme;
                     return (
                         e.loading && {
+                            '&& > svg + span': {background: t.color.medium},
                             '&& > *': t.animation.inlineGlow,
                             '&& > span': {borderColor: 'transparent'}
                         }
@@ -34435,37 +34441,33 @@ var storybook_ui_dll = (function(e) {
         function h(e) {
             var t,
                 n = e.name,
-                o = e.depth,
-                i = e.isComponent,
-                a = e.isLeaf,
-                u = e.isExpanded,
-                c = e.isSelected,
-                h = e.loading,
-                v = s(e, [
+                o = e.isComponent,
+                i = e.isLeaf,
+                a = e.isExpanded,
+                u = e.isSelected,
+                c = s(e, [
                     'name',
-                    'depth',
                     'isComponent',
                     'isLeaf',
                     'isExpanded',
-                    'isSelected',
-                    'loading'
+                    'isSelected'
                 ]);
             return (
-                (t = a ? 'bookmarkhollow' : i ? 'component' : 'folder'),
+                (t = i ? 'bookmarkhollow' : o ? 'component' : 'folder'),
                 r.default.createElement(
                     d,
-                    l({isSelected: c, depth: o, loading: h}, v, {
-                        className: c ? 'sidebar-item selected' : 'sidebar-item'
+                    l({isSelected: u}, c, {
+                        className: u ? 'sidebar-item selected' : 'sidebar-item'
                     }),
                     r.default.createElement(f, {
                         className: 'sidebar-expander',
-                        isExpandable: !a,
-                        isExpanded: !!u || void 0
+                        isExpandable: !i,
+                        isExpanded: !!a || void 0
                     }),
                     r.default.createElement(p, {
                         className: 'sidebar-svg-icon',
                         icon: t,
-                        isSelected: c
+                        isSelected: u
                     }),
                     r.default.createElement('span', null, n)
                 )
@@ -36021,8 +36023,7 @@ var storybook_ui_dll = (function(e) {
                 'px;\n    }\n\n    h5 {\n      font-size: ',
                 'px;\n    }\n\n    h6 {\n      font-size: ',
                 'px;\n      color: ',
-                ';\n    }\n\n    /* Custom for SB SyntaxHighlighter */\n\n    pre:not(.hljs) {\n      background: transparent;\n      border: none;\n      border-radius: 0;\n      padding: 0;\n      margin: 0;\n    }\n\n    pre pre,\n    pre.hljs {\n      padding: 15px;\n      margin: 0;\n\n      white-space: pre-wrap;\n      color: ',
-                ';\n\n      font-size: 13px;\n      line-height: 19px;\n\n      code {\n        color: inherit;\n        font-size: inherit;\n      }\n    }\n\n    pre code {\n      margin: 0;\n      padding: 0;\n      white-space: pre;\n      border: none;\n      background: transparent;\n    }\n\n    pre code,\n    pre tt {\n      background-color: transparent;\n      border: none;\n    }\n\n    /* GitHub inspired Markdown styles loosely from https://gist.github.com/tuzz/3331384 */\n\n    body > *:first-of-type {\n      margin-top: 0 !important;\n    }\n\n    body > *:last-child {\n      margin-bottom: 0 !important;\n    }\n\n    a {\n      color: ',
+                ';\n    }\n\n    /* Custom for SB SyntaxHighlighter */\n\n    pre:not(.hljs) {\n      background: transparent;\n      border: none;\n      border-radius: 0;\n      padding: 0;\n      margin: 0;\n    }\n\n    pre pre,\n    pre.hljs {\n      padding: 15px;\n      margin: 0;\n\n      white-space: pre-wrap;\n      color: inherit;\n\n      font-size: 13px;\n      line-height: 19px;\n\n      code {\n        color: inherit;\n        font-size: inherit;\n      }\n    }\n\n    pre code {\n      margin: 0;\n      padding: 0;\n      white-space: pre;\n      border: none;\n      background: transparent;\n    }\n\n    pre code,\n    pre tt {\n      background-color: transparent;\n      border: none;\n    }\n\n    /* GitHub inspired Markdown styles loosely from https://gist.github.com/tuzz/3331384 */\n\n    body > *:first-of-type {\n      margin-top: 0 !important;\n    }\n\n    body > *:last-child {\n      margin-bottom: 0 !important;\n    }\n\n    a {\n      color: ',
                 ';\n      text-decoration: none;\n    }\n\n    a.absent {\n      color: #cc0000;\n    }\n\n    a.anchor {\n      display: block;\n      padding-left: 30px;\n      margin-left: -30px;\n      cursor: pointer;\n      position: absolute;\n      top: 0;\n      left: 0;\n      bottom: 0;\n    }\n\n    h1,\n    h2,\n    h3,\n    h4,\n    h5,\n    h6 {\n      margin: 20px 0 10px;\n      padding: 0;\n      cursor: text;\n      position: relative;\n    }\n\n    h2:first-of-type,\n    h1:first-of-type,\n    h1:first-of-type + h2,\n    h3:first-of-type,\n    h4:first-of-type,\n    h5:first-of-type,\n    h6:first-of-type {\n      margin-top: 0;\n      padding-top: 0;\n    }\n\n    h1:hover a.anchor,\n    h2:hover a.anchor,\n    h3:hover a.anchor,\n    h4:hover a.anchor,\n    h5:hover a.anchor,\n    h6:hover a.anchor {\n      text-decoration: none;\n    }\n\n    h1 tt,\n    h1 code {\n      font-size: inherit;\n    }\n\n    h2 tt,\n    h2 code {\n      font-size: inherit;\n    }\n\n    h3 tt,\n    h3 code {\n      font-size: inherit;\n    }\n\n    h4 tt,\n    h4 code {\n      font-size: inherit;\n    }\n\n    h5 tt,\n    h5 code {\n      font-size: inherit;\n    }\n\n    h6 tt,\n    h6 code {\n      font-size: inherit;\n    }\n\n    p,\n    blockquote,\n    ul,\n    ol,\n    dl,\n    li,\n    table,\n    pre {\n      margin: 15px 0;\n    }\n\n    hr {\n      border: 0 none;\n      color: ',
                 ';\n      height: 4px;\n      padding: 0;\n    }\n\n    body > h2:first-of-type {\n      margin-top: 0;\n      padding-top: 0;\n    }\n\n    body > h1:first-of-type {\n      margin-top: 0;\n      padding-top: 0;\n    }\n\n    body > h1:first-of-type + h2 {\n      margin-top: 0;\n      padding-top: 0;\n    }\n\n    body > h3:first-of-type,\n    body > h4:first-of-type,\n    body > h5:first-of-type,\n    body > h6:first-of-type {\n      margin-top: 0;\n      padding-top: 0;\n    }\n\n    a:first-of-type h1,\n    a:first-of-type h2,\n    a:first-of-type h3,\n    a:first-of-type h4,\n    a:first-of-type h5,\n    a:first-of-type h6 {\n      margin-top: 0;\n      padding-top: 0;\n    }\n\n    h1 p,\n    h2 p,\n    h3 p,\n    h4 p,\n    h5 p,\n    h6 p {\n      margin-top: 0;\n    }\n\n    li p.first {\n      display: inline-block;\n    }\n\n    ul,\n    ol {\n      padding-left: 30px;\n    }\n\n    ul :first-of-type,\n    ol :first-of-type {\n      margin-top: 0;\n    }\n\n    ul :last-child,\n    ol :last-child {\n      margin-bottom: 0;\n    }\n\n    dl {\n      padding: 0;\n    }\n\n    dl dt {\n      font-size: 14px;\n      font-weight: bold;\n      font-style: italic;\n      padding: 0;\n      margin: 15px 0 5px;\n    }\n\n    dl dt:first-of-type {\n      padding: 0;\n    }\n\n    dl dt > :first-of-type {\n      margin-top: 0;\n    }\n\n    dl dt > :last-child {\n      margin-bottom: 0;\n    }\n\n    dl dd {\n      margin: 0 0 15px;\n      padding: 0 15px;\n    }\n\n    dl dd > :first-of-type {\n      margin-top: 0;\n    }\n\n    dl dd > :last-child {\n      margin-bottom: 0;\n    }\n\n    blockquote {\n      border-left: 4px solid ',
                 ';\n      padding: 0 15px;\n      color: ',
@@ -36045,7 +36046,7 @@ var storybook_ui_dll = (function(e) {
         }
         var u = i.styled.div(function(e) {
                 return (0,
-                i.css)(a(), e.theme.typography.size.s2, e.theme.typography.size.l1, e.theme.typography.weight.black, e.theme.typography.size.m2, e.theme.appBorderColor, e.theme.typography.size.m1, e.theme.typography.size.s3, e.theme.typography.size.s2, e.theme.typography.size.s2, e.theme.color.dark, e.theme.color.darkest, e.theme.color.secondary, e.theme.appBorderColor, e.theme.color.medium, e.theme.color.dark, e.theme.appBorderColor, e.theme.color.lighter, e.theme.appBorderColor, e.theme.appBorderColor, e.theme.color.medium, e.theme.color.darkest, e.theme.color.mediumlight, e.theme.color.lighter);
+                i.css)(a(), e.theme.typography.size.s2, e.theme.typography.size.l1, e.theme.typography.weight.black, e.theme.typography.size.m2, e.theme.appBorderColor, e.theme.typography.size.m1, e.theme.typography.size.s3, e.theme.typography.size.s2, e.theme.typography.size.s2, e.theme.color.dark, e.theme.color.secondary, e.theme.appBorderColor, e.theme.color.medium, e.theme.color.dark, e.theme.appBorderColor, e.theme.color.lighter, e.theme.appBorderColor, e.theme.appBorderColor, e.theme.color.medium, e.theme.color.darkest, e.theme.color.mediumlight, e.theme.color.lighter);
             }),
             c = function(e) {
                 return o.default.createElement(u, e);
@@ -46938,17 +46939,18 @@ var storybook_ui_dll = (function(e) {
                         }
                 return (t.default = e), t;
             })(n('ERkP')),
-            o = s(n('aWzz')),
-            i = n('VSTh'),
-            a = n('a7+6'),
-            u = s(n('CUMQ')),
-            c = n('adtJ'),
-            l = s(n('Nvf/'));
-        function s(e) {
+            o = f(n('/sRG')),
+            i = f(n('aWzz')),
+            a = n('VSTh'),
+            u = n('a7+6'),
+            c = f(n('CUMQ')),
+            l = n('adtJ'),
+            s = f(n('Nvf/'));
+        function f(e) {
             return e && e.__esModule ? e : {default: e};
         }
-        var f = {CLOSE: 'escape'},
-            p = i.styled.header(function(e) {
+        var p = {CLOSE: 'escape'},
+            d = a.styled.header(function(e) {
                 var t = e.theme;
                 return {
                     marginBottom: 20,
@@ -46959,7 +46961,7 @@ var storybook_ui_dll = (function(e) {
                     '> svg': {height: 32, width: 'auto', marginRight: 8}
                 };
             }),
-            d = i.styled.span(function(e) {
+            h = a.styled.span(function(e) {
                 var t = e.theme;
                 return {
                     letterSpacing: '0.35em',
@@ -46970,16 +46972,16 @@ var storybook_ui_dll = (function(e) {
                     color: t.color.mediumdark
                 };
             }),
-            h = (0, i.styled)(c.Link)(function(e) {
+            v = (0, a.styled)(l.Link)(function(e) {
                 return {fontSize: e.theme.typography.size.s1};
             }),
-            v = i.styled.div({
+            y = a.styled.div({
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',
                 marginBottom: '.75rem'
             }),
-            y = i.styled.div(
+            m = a.styled.div(
                 function(e) {
                     var t = e.status,
                         n = e.theme;
@@ -47008,38 +47010,38 @@ var storybook_ui_dll = (function(e) {
                     };
                 }
             ),
-            m = i.styled.div(function(e) {
+            g = a.styled.div(function(e) {
                 return {
                     fontWeight: e.theme.typography.weight.bold,
                     textAlign: 'center'
                 };
             }),
-            g = i.styled.div(function(e) {
+            b = a.styled.div(function(e) {
                 var t = e.theme;
                 return {
                     marginTop: 20,
                     borderTop: '1px solid '.concat(t.appBorderColor)
                 };
             }),
-            b = i.styled.div({
+            w = a.styled.div({
                 padding: '3rem 20px',
                 maxWidth: 600,
                 margin: '0 auto'
             }),
-            w = r.default.createElement(
-                y,
+            O = r.default.createElement(
+                m,
                 {status: 'neutral'},
                 "Looking good! You're up to date."
             ),
-            O = r.default.createElement(
-                y,
+            x = r.default.createElement(
+                m,
                 {status: 'negative'},
                 "Oops! The latest version of Storybook couldn't be fetched."
             ),
-            x = r.default.createElement(c.Icons, {icon: 'close'}),
-            S = r.default.createElement(c.StorybookIcon, null),
-            E = r.default.createElement(
-                h,
+            S = r.default.createElement(l.Icons, {icon: 'close'}),
+            E = r.default.createElement(l.StorybookIcon, null),
+            k = r.default.createElement(
+                v,
                 {
                     secondary: !0,
                     href:
@@ -47050,25 +47052,27 @@ var storybook_ui_dll = (function(e) {
                 },
                 'Read full changelog'
             ),
-            k = r.default.createElement(
-                m,
-                null,
-                r.default.createElement(
-                    c.Link,
-                    {
-                        href:
-                            'https://github.com/storybookjs/storybook/releases',
-                        target: '_blank',
-                        withArrow: !0
-                    },
-                    "Check Storybook's release history"
-                )
-            ),
             _ = r.default.createElement(
                 g,
                 null,
                 r.default.createElement(
-                    c.DocumentFormatting,
+                    l.Link,
+                    {
+                        href:
+                            'https://github.com/storybookjs/storybook/releases',
+                        target: '_blank',
+                        withArrow: !0,
+                        secondary: !0,
+                        cancel: !1
+                    },
+                    "Check Storybook's release history"
+                )
+            ),
+            j = r.default.createElement(
+                b,
+                null,
+                r.default.createElement(
+                    l.DocumentFormatting,
                     null,
                     r.default.createElement(
                         'p',
@@ -47080,7 +47084,7 @@ var storybook_ui_dll = (function(e) {
                         )
                     ),
                     r.default.createElement(
-                        c.SyntaxHighlighter,
+                        l.SyntaxHighlighter,
                         {
                             language: 'bash',
                             copyable: !0,
@@ -47095,7 +47099,7 @@ var storybook_ui_dll = (function(e) {
                         "Alternatively, if you're using yarn run the following command, and check all Storybook related packages:"
                     ),
                     r.default.createElement(
-                        c.SyntaxHighlighter,
+                        l.SyntaxHighlighter,
                         {
                             language: 'bash',
                             copyable: !0,
@@ -47106,32 +47110,32 @@ var storybook_ui_dll = (function(e) {
                     )
                 )
             ),
-            j = r.default.createElement(l.default, null),
-            T = function(e) {
+            T = r.default.createElement(s.default, null),
+            P = function(e) {
                 var t,
                     n = e.latest,
-                    o = e.current,
-                    i = e.onClose,
-                    l = n && n.version !== o.version;
+                    i = e.current,
+                    a = e.onClose,
+                    s = n && o.default.gt(n.version, i.version);
                 return (
                     (t = n
-                        ? l
+                        ? s
                             ? r.default.createElement(
-                                  y,
+                                  m,
                                   {status: 'positive'},
                                   'Storybook ',
                                   n.version,
                                   ' is available. Upgrade from ',
-                                  o.version,
+                                  i.version,
                                   ' now.'
                               )
-                            : w
-                        : O),
+                            : O
+                        : x),
                     r.default.createElement(
-                        a.GlobalHotKeys,
-                        {handlers: {CLOSE: i}, keyMap: f},
+                        u.GlobalHotKeys,
+                        {handlers: {CLOSE: a}, keyMap: p},
                         r.default.createElement(
-                            c.Tabs,
+                            l.Tabs,
                             {
                                 absolute: !0,
                                 selected: 'about',
@@ -47140,13 +47144,13 @@ var storybook_ui_dll = (function(e) {
                                     r.Fragment,
                                     null,
                                     r.default.createElement(
-                                        c.IconButton,
+                                        l.IconButton,
                                         {
                                             onClick: function(e) {
-                                                return e.preventDefault(), i();
+                                                return e.preventDefault(), a();
                                             }
                                         },
-                                        x
+                                        S
                                     )
                                 )
                             },
@@ -47154,14 +47158,14 @@ var storybook_ui_dll = (function(e) {
                                 'div',
                                 {id: 'about', title: 'About'},
                                 r.default.createElement(
-                                    b,
+                                    w,
                                     null,
                                     r.default.createElement(
-                                        p,
+                                        d,
                                         null,
-                                        S,
+                                        E,
                                         'Storybook ',
-                                        o.version
+                                        i.version
                                     ),
                                     t,
                                     n
@@ -47169,48 +47173,48 @@ var storybook_ui_dll = (function(e) {
                                               r.Fragment,
                                               null,
                                               r.default.createElement(
-                                                  v,
+                                                  y,
                                                   null,
                                                   r.default.createElement(
-                                                      d,
+                                                      h,
                                                       null,
                                                       n.version,
                                                       ' Changelog'
                                                   ),
-                                                  E
+                                                  k
                                               ),
                                               r.default.createElement(
-                                                  c.DocumentFormatting,
+                                                  l.DocumentFormatting,
                                                   null,
                                                   r.default.createElement(
-                                                      u.default,
+                                                      c.default,
                                                       null,
                                                       n.info.plain
                                                   )
                                               )
                                           )
-                                        : k,
-                                    l && _,
-                                    j
+                                        : _,
+                                    s && j,
+                                    T
                                 )
                             )
                         )
                     )
                 );
             };
-        (t.default = T),
-            (T.displayName = 'AboutScreen'),
-            (T.propTypes = {
-                current: o.default.shape({version: o.default.string.isRequired})
+        (t.default = P),
+            (P.displayName = 'AboutScreen'),
+            (P.propTypes = {
+                current: i.default.shape({version: i.default.string.isRequired})
                     .isRequired,
-                latest: o.default.shape({
-                    version: o.default.string.isRequired,
-                    info: o.default.shape({plain: o.default.string.isRequired})
+                latest: i.default.shape({
+                    version: i.default.string.isRequired,
+                    info: i.default.shape({plain: i.default.string.isRequired})
                         .isRequired
                 }),
-                onClose: o.default.func.isRequired
+                onClose: i.default.func.isRequired
             }),
-            (T.defaultProps = {latest: null});
+            (P.defaultProps = {latest: null});
     },
     hyzI: function(e, t, n) {
         var r = n('m5o6'),
