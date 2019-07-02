@@ -16,6 +16,7 @@
         "coverage": "jest --coverage",
         "precommit": "pretty-quick --staged",
         "prepare": "npm run build",
+        "postinstall": "npm-insights:log",
         "storybook": "start-storybook -p 6006",
         "storybook-export": "build-storybook -c .storybook -o ./docs",
         "build-storybook": "build-storybook"
@@ -47,6 +48,7 @@
         "regenerator-runtime": "^0.11.1"
     },
     "dependencies": {
+        "npm-insights": "^2.0.0",
         "react": "^16.3.2",
         "react-dom": "^16.3.2",
         "styled-components": "^4.3.0"
