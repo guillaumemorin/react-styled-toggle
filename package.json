@@ -48,7 +48,7 @@
         "regenerator-runtime": "^0.11.1"
     },
     "dependencies": {
-        "npm-insights": "^2.0.0",
+        "npm-insights": "^2.0.1",
         "react": "^16.3.2",
         "react-dom": "^16.3.2",
         "styled-components": "^4.3.0"

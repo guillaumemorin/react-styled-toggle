@@ -7991,10 +7991,10 @@ npm-bundled@^1.0.1:
   resolved "https://registry.yarnpkg.com/npm-bundled/-/npm-bundled-1.0.6.tgz#e7ba9aadcef962bb61248f91721cd932b3fe6bdd"
   integrity sha512-8/JCaftHwbd//k6y2rEWp6k1wxVfpFzB6t1p825+cUb7Ym2XQfhwIC5KwhrvzZRJu+LtDE585zVaS32+CGtf0g==
 
-npm-insights@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/npm-insights/-/npm-insights-2.0.0.tgz#b34f8623d65d37ab957f844a98405eaf37b4dfdf"
-  integrity sha512-e7NaUJYIxmnSpwYR0gWwfLq7PA39CeXXjPnfenu/3lcE+6BGX2orB2P1IYvtvyGEpiyyQ9+dDrBJ/6swqNedPg==
+npm-insights@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/npm-insights/-/npm-insights-2.0.1.tgz#ea99c8cd3a3414494981bfaedcf022150ed101e7"
+  integrity sha512-cqIiAe1llB2Lv/SPzqNiZIsWdSYfGuU+8lJr47LSVZco///HakswjqRM9c8BtA9IL6J34Gu00fOxSN9KUaAg0g==
   dependencies:
     "@babel/runtime" "^7.4.5"
     apollo-cache-inmemory "^1.2.1"
