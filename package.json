@@ -6,6 +6,11 @@
     "watch": {
         "build": "{src,test}/*.js"
     },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    },
     "scripts": {
         "watch": "npm-watch",
         "clean": "if [ -d ./dist ]; then rm -r ./dist; fi;mkdir ./dist;",
@@ -16,7 +21,6 @@
         "coverage": "jest --coverage",
         "precommit": "pretty-quick --staged",
         "prepare": "npm run build",
-        "postinstall": "npm-insights:log",
         "storybook": "start-storybook -p 6006",
         "storybook-export": "build-storybook -c .storybook -o ./docs",
         "build-storybook": "build-storybook"
@@ -33,25 +37,27 @@
         "@storybook/addon-links": "^5.2.8",
         "@storybook/addons": "^5.2.8",
         "@storybook/react": "^5.2.8",
+        "@types/react": "^16.9.35",
+        "@types/styled-components": "^5.1.0",
         "babel-eslint": "^10.0.3",
-        "babel-jest": "^24.9.0",
+        "babel-jest": "^26.0.1",
         "babel-loader": "^8.0.6",
         "babel-runtime": "^6.26.0",
-        "eslint": "^6.7.2",
+        "eslint": "^7.0.0",
         "eslint-plugin-react": "^7.17.0",
-        "husky": "^3.1.0",
-        "jest": "^24.9.0",
+        "husky": "^4.2.5",
+        "jest": "^26.0.1",
         "npm-watch": "^0.6.0",
-        "prettier": "^1.19.1",
+        "prettier": "^2.0.5",
         "pretty-quick": "^2.0.1",
         "react-test-renderer": "^16.12.0",
-        "regenerator-runtime": "^0.13.3"
+        "regenerator-runtime": "^0.13.3",
+        "typescript": "^3.9.2"
     },
     "dependencies": {
-        "npm-insights": "^2.0.1",
         "react": "^16.12.0",
         "react-dom": "^16.12.0",
-        "styled-components": "^4.4.1"
+        "styled-components": "^5.1.0"
     },
     "repository": {
         "type": "git",
