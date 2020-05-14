@@ -2,20 +2,20 @@
 
 exports[`Checked status 1`] = `
 <label
-  className="sc-bdVaJa gEhoXm"
+  className="sc-AxjAm hgwlTJ"
 >
   <label
-    className="sc-bwzfXH gEDjyj"
+    className="sc-AxirZ jTtBsr"
     height={34}
     width={60}
   >
     <input
       checked={true}
-      className="sc-htpNat cUznao"
+      className="sc-AxiKw fIhHZr"
       type="checkbox"
     />
     <span
-      className="sc-bxivhb iGnxFc"
+      className="sc-AxhCb fqtWHo"
     />
   </label>
 </label>
@@ -23,20 +23,20 @@ exports[`Checked status 1`] = `
 
 exports[`Disabled status 1`] = `
 <label
-  className="sc-bdVaJa gEhoXm"
+  className="sc-AxjAm hgwlTJ"
 >
   <label
-    className="sc-bwzfXH gEDjyj"
+    className="sc-AxirZ jTtBsr"
     height={34}
     width={60}
   >
     <input
-      className="sc-htpNat cUznao"
+      className="sc-AxiKw fIhHZr"
       disabled={true}
       type="checkbox"
     />
     <span
-      className="sc-bxivhb iGnxFc"
+      className="sc-AxhCb fqtWHo"
     />
   </label>
 </label>
@@ -44,19 +44,19 @@ exports[`Disabled status 1`] = `
 
 exports[`Display custom background colors 1`] = `
 <label
-  className="sc-bdVaJa gEhoXm"
+  className="sc-AxjAm hgwlTJ"
 >
   <label
-    className="sc-bwzfXH gEDjyj"
+    className="sc-AxirZ jTtBsr"
     height={34}
     width={60}
   >
     <input
-      className="sc-htpNat dDvMrc"
+      className="sc-AxiKw cSeDzH"
       type="checkbox"
     />
     <span
-      className="sc-bxivhb iMLVkj"
+      className="sc-AxhCb bfZgzg"
     />
   </label>
 </label>
@@ -64,19 +64,19 @@ exports[`Display custom background colors 1`] = `
 
 exports[`Display custom sizes 1`] = `
 <label
-  className="sc-bdVaJa gEhoXm"
+  className="sc-AxjAm hgwlTJ"
 >
   <label
-    className="sc-bwzfXH esbtVt"
+    className="sc-AxirZ cnvPaE"
     height={20}
     width={40}
   >
     <input
-      className="sc-htpNat jHQAcI"
+      className="sc-AxiKw jMbJib"
       type="checkbox"
     />
     <span
-      className="sc-bxivhb jeEOtu"
+      className="sc-AxhCb dIoJDo"
     />
   </label>
 </label>
@@ -84,24 +84,24 @@ exports[`Display custom sizes 1`] = `
 
 exports[`Display left label 1`] = `
 <label
-  className="sc-bdVaJa gEhoXm"
+  className="sc-AxjAm hgwlTJ"
 >
   <span
-    className="sc-ifAKCX ieghZq"
+    className="sc-AxhUy yTwGS"
   >
     Label
   </span>
   <label
-    className="sc-bwzfXH gEDjyj"
+    className="sc-AxirZ jTtBsr"
     height={34}
     width={60}
   >
     <input
-      className="sc-htpNat cUznao"
+      className="sc-AxiKw fIhHZr"
       type="checkbox"
     />
     <span
-      className="sc-bxivhb iGnxFc"
+      className="sc-AxhCb fqtWHo"
     />
   </label>
 </label>
@@ -109,24 +109,24 @@ exports[`Display left label 1`] = `
 
 exports[`Display left label 2`] = `
 <label
-  className="sc-bdVaJa gEhoXm"
+  className="sc-AxjAm hgwlTJ"
 >
   <span
-    className="sc-ifAKCX ieghZq"
+    className="sc-AxhUy yTwGS"
   >
     Label
   </span>
   <label
-    className="sc-bwzfXH gEDjyj"
+    className="sc-AxirZ jTtBsr"
     height={34}
     width={60}
   >
     <input
-      className="sc-htpNat cUznao"
+      className="sc-AxiKw fIhHZr"
       type="checkbox"
     />
     <span
-      className="sc-bxivhb iGnxFc"
+      className="sc-AxhCb fqtWHo"
     />
   </label>
 </label>
@@ -134,23 +134,23 @@ exports[`Display left label 2`] = `
 
 exports[`Display right label 1`] = `
 <label
-  className="sc-bdVaJa gEhoXm"
+  className="sc-AxjAm hgwlTJ"
 >
   <label
-    className="sc-bwzfXH gEDjyj"
+    className="sc-AxirZ jTtBsr"
     height={34}
     width={60}
   >
     <input
-      className="sc-htpNat cUznao"
+      className="sc-AxiKw fIhHZr"
       type="checkbox"
     />
     <span
-      className="sc-bxivhb iGnxFc"
+      className="sc-AxhCb fqtWHo"
     />
   </label>
   <span
-    className="sc-ifAKCX ieghZq"
+    className="sc-AxhUy yTwGS"
   >
     Label
   </span>
@@ -159,21 +159,21 @@ exports[`Display right label 1`] = `
 
 exports[`Set input name and value 1`] = `
 <label
-  className="sc-bdVaJa gEhoXm"
+  className="sc-AxjAm hgwlTJ"
 >
   <label
-    className="sc-bwzfXH gEDjyj"
+    className="sc-AxirZ jTtBsr"
     height={34}
     width={60}
   >
     <input
-      className="sc-htpNat cUznao"
+      className="sc-AxiKw fIhHZr"
       name="toggle"
       type="checkbox"
       value="toggleValue"
     />
     <span
-      className="sc-bxivhb iGnxFc"
+      className="sc-AxhCb fqtWHo"
     />
   </label>
 </label>
@@ -181,19 +181,19 @@ exports[`Set input name and value 1`] = `
 
 exports[`Standard output 1`] = `
 <label
-  className="sc-bdVaJa gEhoXm"
+  className="sc-AxjAm hgwlTJ"
 >
   <label
-    className="sc-bwzfXH gEDjyj"
+    className="sc-AxirZ jTtBsr"
     height={34}
     width={60}
   >
     <input
-      className="sc-htpNat cUznao"
+      className="sc-AxiKw fIhHZr"
       type="checkbox"
     />
     <span
-      className="sc-bxivhb iGnxFc"
+      className="sc-AxhCb fqtWHo"
     />
   </label>
 </label>
