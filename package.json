@@ -3,6 +3,9 @@
     "version": "1.0.17",
     "description": "Customizable toggle button",
     "main": "lib/index.js",
+    "files": [
+        "lib"
+    ],
     "watch": {
         "build": "{src,test}/*.js"
     },

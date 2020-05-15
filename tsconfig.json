@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
         "target": "esnext",
-        "module": "commonjs",
+        "module": "esnext",
+        "lib": ["dom", "esnext"],
         "outDir": "lib",
         "strict": true,
         "allowSyntheticDefaultImports": true,
@@ -18,5 +19,6 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true
     },
-    "include": ["src"]
+    "include": ["src"],
+    "exclude": ["node_modules", "lib"]
 }
