@@ -3,10 +3,10 @@
 </h1>
 <p align="center">
 	<a href="https://badge.fury.io/js/react-styled-toggle"><img src="https://badge.fury.io/js/react-styled-toggle.svg" alt="npm version" height="18"></a>
+	<img src="https://badges.frapsoft.com/typescript/code/typescript.svg?v=101" alt="npm version" height="18">
     <a href='https://github.com/prettier/prettier'> <img src='https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square' alt='code style: prettier'></a>
     <a href='https://github.com/styled-components/styled-components'> <img src='https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e' alt='style: styled-components'></a>
-	<a href='https://github.com/facebook/jest'> <img src='https://facebook.github.io/jest/img/jest-badge.svg' alt='jest'></a><img src="https://badges.frapsoft.com/typescript/code/typescript.svg?v=101" alt="npm version" height="18">
-
+	<a href='https://github.com/facebook/jest'> <img src='https://facebook.github.io/jest/img/jest-badge.svg' alt='jest'></a>
 </p>
 
 <p align="center">
