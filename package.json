@@ -23,7 +23,7 @@
         "watch": "npm-watch",
         "typecheck": "tsc",
         "clean": "if [ -d ./lib ]; then rm -r ./lib; fi;mkdir ./lib;",
-        "build-js": "tsc --jsx react",
+        "build-js": "tsc",
         "build": "npm run clean; npm run build-js",
         "lint": "eslint 'src/**/*.{js,ts,tsx}'",
         "test": "jest",
