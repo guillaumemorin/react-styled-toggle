@@ -19,7 +19,7 @@ React Toggle component written in TypeScript and powered by styled-components.
 
 <a href="https://codesandbox.io/s/react-styled-toggle-grl6dh"> <img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="codesandebox" height="40"></a>
 
-<a href="https://guillaumemorin.github.io/react-styled-toggle/"> <img src="https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg" alt="storybook" height="40"></a>
+<a href="https://guillaumemorin.github.io/react-styled-toggle/?path=/docs/toggle-button--docs"> <img src="https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg" alt="storybook" height="40"></a>
 
 ## Installation
 
@@ -51,4 +51,89 @@ yarn build
 
 ## Props
 
-<table class="css-1ytzlk7"><thead><tr><th class="css-d52hbj">property</th><th class="css-d52hbj">propType</th><th class="css-d52hbj">required</th><th class="css-d52hbj">default</th><th class="css-d52hbj">description</th></tr></thead><tbody><tr><td class="css-1ygfcef">checked</td><td class="css-1ygfcef"><span>bool</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">disabled</td><td class="css-1ygfcef"><span>bool</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">onChange</td><td class="css-1ygfcef"><span>func</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">backgroundColorChecked</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"'#2193F3'"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">backgroundColorUnchecked</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"'#ccc'"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">backgroundColorButton</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"'#fff'"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">name</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">value</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">labelRight</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">labelLeft</td><td class="css-1ygfcef"><span>string</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj">-</td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">sliderWidth</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"26"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">sliderHeight</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"26"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">width</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"60"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">height</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"34"</span></td><td class="css-d52hbj"></td></tr><tr><td class="css-1ygfcef">translate</td><td class="css-1ygfcef"><span>number</span></td><td class="css-d52hbj">-</td><td class="css-d52hbj"><span style="color: rgb(34, 34, 170); word-break: break-word;">"26"</span></td><td class="css-d52hbj"></td></tr></tbody></table>
+<table width="100%">
+   <thead>
+      <tr>
+         <th >property</th>
+         <th >Type</th>
+         <th >default</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td >name</td>
+         <td ><span>string</span></td>
+         <td ></td>
+      </tr>
+      <tr>
+         <td >value</td>
+         <td ><span>string</span></td>
+         <td ></td>
+      </tr>
+      <tr>
+         <td >checked</td>
+         <td ><span>boolean</span></td>
+         <td ></td>
+      </tr>
+      <tr>
+         <td >disabled</td>
+         <td ><span>boolean</span></td>
+         <td ></td>
+      </tr>
+	  <tr>
+      	<td >labelRight</td>
+      	<td ><span>string</span></td>
+      	<td ></td>
+      </tr>
+      <tr>
+         <td >labelLeft</td>
+         <td ><span>string</span></td>
+         <td ></td>
+      </tr>
+	  <tr>
+         <td >width</td>
+         <td ><span>number</span></td>
+         <td ><span style="color: aquamarine; word-break: break-word;">60</span></td>
+      </tr>
+      <tr>
+         <td >height</td>
+         <td ><span>number</span></td>
+         <td ><span style="color: aquamarine; word-break: break-word;">34</span></td>
+      </tr>
+      <tr>
+         <td >translate</td>
+         <td ><span>number</span></td>
+         <td ><span style="color: aquamarine; word-break: break-word;">26</span></td>
+      </tr>
+      <tr>
+         <td >sliderWidth</td>
+         <td ><span>number</span></td>
+         <td ><span style="color: aquamarine; word-break: break-word;">26</span></td>
+      </tr>
+      <tr>
+         <td >sliderHeight</td>
+         <td ><span>number</span></td>
+         <td ><span style="color: aquamarine; word-break: break-word;">26</span></td>
+      </tr>
+      <tr>
+         <td >backgroundColorChecked</td>
+         <td ><span>string</span></td>
+         <td ><span style="color: aquamarine; word-break: break-word;">#2193F3</span></td>
+      </tr>
+      <tr>
+         <td >backgroundColorUnchecked</td>
+         <td ><span>string</span></td>
+         <td ><span style="color: aquamarine; word-break: break-word;">#ccc</span></td>
+      </tr>
+	  <tr>
+        <td >backgroundColorButton</td>
+      	<td ><span>string</span></td>
+     	<td ><span style="color: aquamarine; word-break: break-word;">#fff</span></td>
+      </tr>
+      <tr>
+         <td >onChange</td>
+         <td ><span>() => void</span></td>
+         <td ></td>
+      </tr>
+   </tbody>
+</table>
