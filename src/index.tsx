@@ -1,40 +1,41 @@
 import React from 'react'
+
 import { GlobalContainer, InputContainer, Label, Slider, Input } from './style'
 
 export type ToggleProps = {
-    checked: boolean
-    disabled: boolean
-    onChange: () => void
-    backgroundColorChecked: string
-    backgroundColorUnchecked: string
-    backgroundColorButton: string
-    name: string
-    value: string
-    labelRight: string
-    labelLeft: string
-    sliderWidth: number
-    sliderHeight: number
-    width: number
-    height: number
-    translate: any
+    name?: string
+    value?: string
+    checked?: boolean
+    disabled?: boolean
+    labelRight?: string
+    labelLeft?: string
+    width?: number
+    height?: number
+    translate?: number
+    sliderWidth?: number
+    sliderHeight?: number
+    backgroundColorChecked?: string
+    backgroundColorUnchecked?: string
+    backgroundColorButton?: string
+    onChange?: () => void
 }
 
 const Toggle = ({
-    onChange,
-    checked,
-    disabled,
-    width,
-    height,
-    translate,
-    backgroundColorChecked,
-    backgroundColorUnchecked,
-    backgroundColorButton,
     name,
     value,
+    checked,
+    disabled,
     labelRight,
     labelLeft,
-    sliderWidth,
-    sliderHeight,
+    width = 60,
+    height = 34,
+    translate = 26,
+    sliderWidth = 26,
+    sliderHeight = 26,
+    backgroundColorChecked = '#2193F3',
+    backgroundColorUnchecked = '#ccc',
+    backgroundColorButton = '#fff',
+    onChange,
 }: ToggleProps) => {
     return (
         <GlobalContainer>
@@ -60,17 +61,6 @@ const Toggle = ({
             {labelRight && <Label>{labelRight}</Label>}
         </GlobalContainer>
     )
-}
-
-Toggle.defaultProps = {
-    backgroundColorChecked: '#2193F3',
-    backgroundColorUnchecked: '#ccc',
-    backgroundColorButton: '#fff',
-    sliderWidth: 26,
-    sliderHeight: 26,
-    width: 60,
-    height: 34,
-    translate: 26,
 }
 
 export default Toggle
