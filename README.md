@@ -17,14 +17,23 @@ React Toggle component written in TypeScript and powered by styled-components.
 
 ## Demo
 
-<a href="https://codesandbox.io/s/react-styled-toggle-grl6dh"> <img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="codesandebox" height="40"></a>
-
+<p align="center">
 <a href="https://guillaumemorin.github.io/react-styled-toggle/?path=/docs/toggle-button--docs"> <img src="https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg" alt="storybook" height="40"></a>
+<a href="https://codesandbox.io/s/react-styled-toggle-grl6dh"> <img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="codesandebox" height="40"></a>
+</p>
 
 ## Installation
 
 ```
+pnpm add react-styled-toggle
+
+# or
+
 yarn add react-styled-toggle
+
+# or
+
+npm i react-styled-toggle
 ```
 
 ## Usage
@@ -32,9 +41,9 @@ yarn add react-styled-toggle
 ```
 import Toggle from 'react-styled-toggle';
 
-render(){
-	return <Toggle />
-}
+
+<Toggle />
+
 ```
 
 ## Development
